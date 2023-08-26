@@ -1,0 +1,185 @@
+/** @format */
+
+.formContent {
+  background-color: white;
+  width: 380px;
+  height: 550px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.formWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.formTitle {
+  color: #3761ee;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+.regWitGoogle {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  margin: 18px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.google {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.google img {
+  width: 100%;
+  height: 100%;
+}
+.regWitEmail {
+  text-align: center;
+  font-size: 18px;
+  color: #6b76b1;
+}
+.inputForm {
+  margin: 14px;
+}
+.inputForm input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 3px;
+}
+.inputForm button {
+  background-color: #3761ee;
+  color: white;
+  width: 100%;
+  padding: 13px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+.errMsg {
+  text-align: center;
+  color: red;
+}
+.errMessage {
+  color: red;
+}
+.formContentLogin {
+  background-color: white;
+  width: 368px;
+  height: 450px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.register {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+}
+.register span {
+  color: #3761ee;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* CSS for mobile */
+@media screen and (max-width: 480px) {
+  .formContent {
+    width: 90vw;
+    height: auto;
+    padding: 15px;
+  }
+
+  .formWrapper {
+    top: 50%;
+  }
+
+  .formTitle {
+    font-size: 20px;
+  }
+
+  .regWitGoogle {
+    margin: 10px;
+  }
+
+  .google {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .inputForm {
+    margin: 10px;
+  }
+
+  .inputForm input {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .inputForm button {
+    padding: 10px;
+    font-size: 14px;
+    margin: 4px 0;
+  }
+
+  .register {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .formContentLogin {
+    background-color: white;
+    width: 90vw;
+    height: 80vh;
+    padding: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .formContent {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .formContentLogin {
+    width: 40vw;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .google {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .google img {
+    width: 100%;
+    height: 100%;
+  }
+  .formTitle {
+    font-size: 20px;
+  }
+  .regWitGoogle {
+    margin: 10px;
+  }
+  .inputForm {
+    margin: 10px;
+  }
+  .inputForm button {
+    margin: 4px 0;
+    padding: 10px;
+  }
+}
